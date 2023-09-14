@@ -9,4 +9,6 @@ module.exports = () => {
     })
     .then(() => console.log('MongoDB Connected'))
     .catch((err) => console.log('could not connect to DB',err));
+
+    
 }
